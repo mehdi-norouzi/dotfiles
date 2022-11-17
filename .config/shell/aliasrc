@@ -65,4 +65,7 @@ alias \
   maf="make flash-st -j4"\
   mca="make clean && make all -j4" \
   lg="lazygit" \
+  rap"/home/mehdi/tech/rust/dg-track/target/debug/dg-track" \
+  cb="cargo build" \
+  cr="cargo run" \
   dfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
