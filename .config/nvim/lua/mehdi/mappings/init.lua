@@ -72,3 +72,6 @@ map("n", "<leader>ma", "<cmd>lua require('harpoon.mark').add_file()<cr>", opts)
 map("n", "<leader>ml", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", opts)
 map("n", "<leader>mn", "<cmd>lua require('harpoon.ui').nav_next()<cr>", opts)
 map("n", "<leader>mp", "<cmd>lua require('harpoon.ui').nav_prev()<cr>", opts)
+
+-- netrw
+map("n", "<leader>fm", "<cmd>Ex<cr>", opts)
