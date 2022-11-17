@@ -57,6 +57,7 @@ vim.g.vimwiki_list = {
     {path = '~/notes/vimwiki/tech/embedded', syntax = 'markdown', ext = '.md'},
     {path = '~/notes/vimwiki/ideas', syntax = 'markdown', ext = '.md'},
     {path = '~/notes/vimwiki/science', syntax = 'markdown', ext = '.md'},
+    {path = '~/notes/vimwiki/ati', syntax = 'markdown', ext = '.md'},
 }
 
 set.guicursor='n-v-c-:block-blinkwait100-blinkon100-blinkoff80,i-ci-ve:ver25-blinkwait150-blinkon150-blinkoff100,r-ci:hor20'
