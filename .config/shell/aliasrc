@@ -68,4 +68,5 @@ alias \
   rap="/home/mehdi/tech/rust/dg-track/target/debug/dg-track" \
   cb="cargo build" \
   cr="cargo run" \
-  dfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+  dfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME" \
+ocd="openocd -f /usr/share/openocd/scripts/interface/stlink-v2.cfg -f /usr/share/openocd/scripts/target/stm32f1x.cfg"
