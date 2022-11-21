@@ -47,7 +47,7 @@ dap.configurations.c = {
     request = 'launch',
     MIMode = 'gdb',
     miDebuggerServerAddress = 'localhost:3333',
-    miDebuggerPath = '/usr/bin/gdb-multiarch',
+    miDebuggerPath = '/usr/bin/arm-none-eabi-gdb',
     cwd = '${workspaceFolder}',
     program = function()
       return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/build/', 'file')
