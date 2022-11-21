@@ -5,7 +5,7 @@ D   ${XDG_DOWNLOAD_DIR:-$HOME/dl}
 d   ${XDG_DOCUMENTS_DIR:-$HOME/dox}
 wr  ${XDG_WORK_DIR:-$HOME/wrk}
 rp  ${XDG_REPOS_DIR:-$HOME/gits}
-cod ${XDG_PROJECT_DIR:-$HOME/$XDG_WORK_DIR/code}
+cod ${XDG_PROJECT_DIR:-$HOME/wrk/code}
 dt  ${XDG_DATA_HOME:-$HOME/.local/share}
 rr  $HOME/.local/src
 h   $HOME
