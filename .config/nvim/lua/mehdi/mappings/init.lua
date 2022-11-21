@@ -80,5 +80,5 @@ map("n", "<leader>fm", "<cmd>Ex<cr>", opts)
 
 -- building mcu projects
 map("n", "<leader>ma", "<cmd>! make all -j4<cr>", opts)
-map("n", "<leader>maf", "<cmd>! make flash-st -j4<cr>", opts)
+map("n", "<leader>mf", "<cmd>! make flash-st -j4<cr>", opts)
 map("n", "<leader>mca", "<cmd>! make clean && make all -j4<cr>", opts)
