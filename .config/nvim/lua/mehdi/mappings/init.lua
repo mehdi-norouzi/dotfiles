@@ -22,7 +22,7 @@ map("n", "<leader>fn", ":Telescope find_files cwd=~/notes<CR>", opts)
 map("n", "<C-d>", "<C-d>zz", opts)
 map("n", "<C-u>", "<C-u>zz", opts)
 
--- copy and pase stuff
+-- copy pasta
 map("x", "<leader>p", '"_dP', opts)
 map("n", "<leader>p", '"*p', opts) -- paste from system clipboard
 map("n", "<leader>y", '"+y', opts) -- copy to system clipboard
@@ -31,8 +31,10 @@ map("v", "<leader>y", '"+y', opts) -- copy to system clipboard
 -- Undotree
 map("n", "<leader>u", "<cmd>UndotreeToggle<cr>", opts)
 
--- close buffers
+-- buffers navigation
 map("n", "<leader>x", "<cmd>bdelete!<cr>", opts)
+map("n", "<leader>k", "<cmd>bn<cr>", opts)
+map("n", "<leader>j", "<cmd>bp<cr>", opts)
 
 -- Better window navigation
 map("n", "<C-h>", "<C-w>h", opts)
@@ -68,10 +70,15 @@ map("n", "<leader>lr", "<cmd>LspRestart<cr>", opts)
 map("n", "<leader>gg", "<cmd>LazyGit<cr>", opts)
 
 -- harpoon
-map("n", "<leader>ma", "<cmd>lua require('harpoon.mark').add_file()<cr>", opts)
-map("n", "<leader>ml", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", opts)
-map("n", "<leader>mn", "<cmd>lua require('harpoon.ui').nav_next()<cr>", opts)
-map("n", "<leader>mp", "<cmd>lua require('harpoon.ui').nav_prev()<cr>", opts)
+map("n", "<leader>ha", "<cmd>lua require('harpoon.mark').add_file()<cr>", opts)
+map("n", "<leader>hl", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", opts)
+map("n", "<leader>hn", "<cmd>lua require('harpoon.ui').nav_next()<cr>", opts)
+map("n", "<leader>hp", "<cmd>lua require('harpoon.ui').nav_prev()<cr>", opts)
 
 -- netrw
 map("n", "<leader>fm", "<cmd>Ex<cr>", opts)
+
+-- building mcu projects
+map("n", "<leader>ma", "<cmd>! make all -j4<cr>", opts)
+map("n", "<leader>maf", "<cmd>! make flash-st -j4<cr>", opts)
+map("n", "<leader>mca", "<cmd>! make clean && make all -j4<cr>", opts)
