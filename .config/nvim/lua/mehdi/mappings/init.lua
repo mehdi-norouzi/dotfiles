@@ -33,8 +33,8 @@ map("n", "<leader>u", "<cmd>UndotreeToggle<cr>", opts)
 
 -- buffers navigation
 map("n", "<leader>x", "<cmd>bdelete!<cr>", opts)
-map("n", "<leader>k", "<cmd>bn<cr>", opts)
-map("n", "<leader>j", "<cmd>bp<cr>", opts)
+map("n", "<leader>j", "<cmd>bn<cr>", opts)
+map("n", "<leader>k", "<cmd>bp<cr>", opts)
 
 -- Better window navigation
 map("n", "<C-h>", "<C-w>h", opts)
@@ -79,6 +79,6 @@ map("n", "<leader>hp", "<cmd>lua require('harpoon.ui').nav_prev()<cr>", opts)
 map("n", "<leader>fm", "<cmd>Ex<cr>", opts)
 
 -- building mcu projects
-map("n", "<leader>ma", "<cmd>! make all -j4<cr>", opts)
-map("n", "<leader>mf", "<cmd>! make flash-st -j4<cr>", opts)
-map("n", "<leader>mca", "<cmd>! make clean && make all -j4<cr>", opts)
+map("n", "<leader>ma", "<cmd>wa<cr><cmd>! make all -j4<cr>", opts)
+map("n", "<leader>mf", "<cmd>wa<cr><cmd>! make flash-st -j4<cr>", opts)
+map("n", "<leader>mca", "<cmd>wa<cr><cmd>! make clean && make all -j4<cr>", opts)

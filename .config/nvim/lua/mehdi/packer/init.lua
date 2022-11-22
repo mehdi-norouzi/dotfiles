@@ -73,4 +73,7 @@ return require('packer').startup(
 
         -- reach
         use { "toppair/reach.nvim" }
+
+        -- gitsigns
+        use { 'lewis6991/gitsigns.nvim' }
     end)

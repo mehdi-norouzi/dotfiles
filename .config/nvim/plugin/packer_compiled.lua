@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/diffview.nvim",
     url = "https://github.com/sindrets/diffview.nvim"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["goyo.vim"] = {
     loaded = true,
     path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/goyo.vim",
