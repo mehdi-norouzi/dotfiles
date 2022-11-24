@@ -45,7 +45,7 @@ set.updatetime = 50
 
 
 -- columns to highlight
--- set.colorcolumn = '80'
+set.colorcolumn = '80'
 
 -- vimwiki markdown syntax
 vim.g.vimwiki_list = {

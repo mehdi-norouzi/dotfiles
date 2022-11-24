@@ -32,7 +32,7 @@ map("v", "<leader>y", '"+y', opts) -- copy to system clipboard
 map("n", "<leader>u", "<cmd>UndotreeToggle<cr>", opts)
 
 -- buffers navigation
-map("n", "<leader>x", "<cmd>bdelete!<cr>", opts)
+map("n", "<leader>x", "<C-w>q", opts)
 map("n", "<leader>j", "<cmd>bn<cr>", opts)
 map("n", "<leader>k", "<cmd>bp<cr>", opts)
 
@@ -65,6 +65,7 @@ map("n", "<leader>tf", "<cmd>ToggleTerm size=20 direction=float<cr>", opts)
 
 -- Lsp restart
 map("n", "<leader>lr", "<cmd>LspRestart<cr>", opts)
+map('n', 'gv', "<cmd>vs | lua vim.lsp.buf.definition()<CR>", opts)
 
 -- lazygit
 map("n", "<leader>gg", "<cmd>LazyGit<cr>", opts)

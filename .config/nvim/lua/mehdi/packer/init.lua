@@ -12,6 +12,9 @@ return require('packer').startup(
         use 'sainnhe/gruvbox-material'
         use { "ellisonleao/gruvbox.nvim" }
         use { "catppuccin/nvim", as = "catppuccin" }
+        use { 'tjdevries/colorbuddy.vim' }
+        use { 'avi-2-avi/catbuddy.nvim' }
+
 
         -- telescope
         use {

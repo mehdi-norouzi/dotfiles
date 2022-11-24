@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["catbuddy.nvim"] = {
+    loaded = true,
+    path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/catbuddy.nvim",
+    url = "https://github.com/avi-2-avi/catbuddy.nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["colorbuddy.vim"] = {
+    loaded = true,
+    path = "/home/mehdi/.local/share/nvim/site/pack/packer/start/colorbuddy.vim",
+    url = "https://github.com/tjdevries/colorbuddy.vim"
   },
   ["diffview.nvim"] = {
     loaded = true,
