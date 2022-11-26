@@ -1,2 +1,5 @@
-.dotfiles
-.config/lazygit/*
+/home/mehdi/.dotfiles
+/home/mehdi/.config/lazygit/*
+/home/mehdi/.config/zsh/.zcompdump
+/home/mehdi/.local
+
