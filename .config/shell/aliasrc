@@ -69,4 +69,5 @@ alias \
   cb="cargo build" \
   cr="cargo run" \
   dfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME" \
+  scr="git --git-dir=$HOME/.local/bin/.scr/ --work-tree=$HOME/.local/bin" \
   ocd="openocd -f /usr/share/openocd/scripts/interface/stlink.cfg -f /usr/share/openocd/scripts/target/stm32f1x.cfg"
