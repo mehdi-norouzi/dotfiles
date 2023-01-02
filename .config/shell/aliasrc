@@ -64,6 +64,14 @@ alias \
   ma="make all -j4" \
   maf="make flash-st -j4"\
   mca="make clean && make all -j4" \
+  m11="make clean && make LANE_ID=1 DEVICE_ID=1 -j4" \
+  m12="make clean && make LANE_ID=1 DEVICE_ID=2 -j4" \
+  m21="make clean && make LANE_ID=2 DEVICE_ID=1 -j4" \
+  m22="make clean && make LANE_ID=2 DEVICE_ID=2 -j4" \
+  mf11="make clean && make LANE_ID=1 DEVICE_ID=1 flash-st -j4" \
+  mf12="make clean && make LANE_ID=1 DEVICE_ID=2 flash-st -j4" \
+  mf21="make clean && make LANE_ID=2 DEVICE_ID=1 flash-st -j4" \
+  mf22="make clean && make LANE_ID=2 DEVICE_ID=2 flash-st -j4" \
   lg="lazygit" \
   rap="/home/mehdi/mine/tech/rust/dg-track/target/debug/dg-track" \
   cb="cargo build" \
