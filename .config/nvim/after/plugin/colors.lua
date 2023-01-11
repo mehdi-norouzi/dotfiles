@@ -1,4 +1,8 @@
-vim.g.mehdi_colorscheme = "gruvbox"
+vim.g.mehdi_colorscheme = "catppuccin"
+
+require('rose-pine').setup({
+    disable_background = true
+})
 
 function ColorMyPencils()
     vim.g.gruvbox_contrast_dark = 'hard'
@@ -31,13 +35,21 @@ function ColorMyPencils()
     })
 
     hl("LineNr", {
-        fg = "#5eacd3"
+        -- fg = "#5eacd3"
+        fg = "#b7a6a4"
     })
 
     hl("netrwDir", {
         fg = "#5eacd3"
     })
 
+    hl("NormalFloat", {
+        bg = "none"
+    })
+
 end
 ColorMyPencils()
+
+
+
 
